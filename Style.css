@@ -1,147 +1,164 @@
-
 .button {
-	width:190px;
-	text-align:center;
-	font-family: arial;
-	text-decoration: none;
-	font-weight: 300;
-	font-size: 20px;
-	border: #1071FF 1px solid;
-	color: #1071FF;
-	margin-right: 20px;
-	margin-top: 24px;
-	transition: border .5s ease-in-out, border-radius .5s ease-in-out, color .2s ease-in-out;
-	border-radius: 0px;
-	display: inline-block;
+  width: 190px;
+  text-align: center;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  border: #1071FF 1px solid;
+  color: #1071FF;
+  margin-right: 20px;
+  margin-top: 24px;
+  transition: border .5s ease-in-out, border-radius .5s ease-in-out, color .2s ease-in-out;
+  border-radius: 0px;
+  display: inline-block;
 }
-	 
+
 .button:hover {
-    color: #10FF58;
-    border: #10FF58 1px solid;
-    border-radius: 10px;
+  color: #10FF58;
+  border: #10FF58 1px solid;
+  border-radius: 10px;
 
 }
-.footer{
-	background-color: #434445;
-	height: 80px;
-	padding-top: 60px;
-	color: #a4a4a4;
-	font-size: 20px;
-	font-weight: 100;
-	text-align: center;
-	margin: auto;
-	clear:both;
+
+.footer {
+  background-color: #434445;
+  height: 80px;
+  padding-top: 60px;
+  color: #a4a4a4;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin: auto;
+  clear: both;
 }
-.mySite{
-	width: center;
-	height: 140px;
-	font-size: 30px;
-	color: #2e353d;
-	font-weight: 300;
-	font-family: "Helvetica Neue Cyr";
-	text-align: center;
-	float: top; 
+
+.mySite {
+  width: center;
+  height: 140px;
+  font-size: 30px;
+  color: #2e353d;
+  font-weight: 300;
+  font-family: "Helvetica Neue Cyr";
+  text-align: center;
+  float: top;
 }
-.logo{
-	float: left;
-	margin-right: 20px;
+
+
+
+.body {
+  width: 824px;
+  height: 622px;
+  filter: drop-shadow(6.364px 6.364px 0px rgba(140, 187, 211, 0.22));
+  background-color: #ffff55;
+  border: 10px;
+  border-color: blue;
 
 }
-.body{
-	width: 824px;
-	height: 622px;
-	filter: drop-shadow(6.364px 6.364px 0px rgba(140,187,211,0.22));
-	background-color: #ffff55;
-	border: 10px;
-	border-color: blue;
 
+.body {
+  width: 706px;
+  height: 272px;
+  font-size: 24px;
+  color: #242424;
+  font-family: "Helvetica Neue Cyr";
 }
-.body{
-	width: 706px;
-	height: 272px;
-	font-size: 24px;
-	color: #242424;
-	font-family: "Helvetica Neue Cyr";
-	}
 
-.footer2{
-	margin-top: 20px;
-	background-color: #434445;
-	color: #a4a4a4;
-	font-size: 20px;
-	font-weight: 100;
-	text-align: center;
-	padding-top: 40px;
-	position:fixed;
-    left:0px;
-    bottom:0px;
-    height:60px;
-    width:100%;
+.footer {
+  margin-top: 20px;
+  background-color: #434445;
+  color: #a4a4a4;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 40px;
+  height: 60px;
+  width: 100%;
 }
+
 .main {
-	margin-top: 20px;
-	width: 706px;
-	height: 272px;
-	font-size: 24px;
-	color: #242424;
-	font-family: "Helvetica Neue Cyr";
-	margin-left: 300px;
-	padding-top: 20px;
-	padding-left: 20px;
+  width: 706px;
+  height: 272px;
+  font-size: 24px;
+  color: #242424;
+  font-family: "Helvetica Neue Cyr";
+
+  padding-top: 20px;
+  padding-left: 20px;
 }
+
 .main {
-	width: 80%;
-	height: max-content;
-	filter: drop-shadow(6.364px 6.364px 0px rgba(140,187,211,0.22));
-	background-color: #f5f4fb;
+  width: 80%;
+  height: max-content;
+  filter: drop-shadow(6.364px 6.364px 0px rgba(174, 196, 207, 0.22));
+  background-color: #dfdfdf;
 
 }
-	
-}
+
+
 .clear {
-	clear: both;
-	display: flex; 
+  clear: both;
+  display: flex;
 }
+
 .content {
-	margin:0px auto;
-	width: 1000px;
-	
+  margin: 0px 50px;
+
+
 }
+
+.flex-content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  min-height: 100%;
+}
+
 .site__title {
 
-	width: 643px;
-	height: 44px;
-	font-size: 40px;
-	color: #2e353d;
-	font-weight: 300;
-	font-family: "Helvetica Neue Cyr";
-	margin: 10px auto;
-	text-align: center;
+  width: 643px;
+  height: 44px;
+  font-size: 40px;
+  color: #2e353d;
+  font-weight: 300;
+  font-family: "Helvetica Neue Cyr";
+  margin: 10px auto;
+  text-align: center;
 }
+
 .button--footer {
-	width: 136px;
-	height: 136px;
-	font-size: 24px;
-	color: #40678a;
-	font-family: "Helvetica Neue Cyr";
-	display:inline-block;
-	text-align:center;
-	margin-left: 200px;
-	margin-top: 50px;
+  width: 136px;
+  height: 136px;
+  font-size: 24px;
+  color: #40678a;
+  font-family: "Helvetica Neue Cyr";
+  display: inline-block;
+  text-align: center;
 }
+
 .navigation {
-	text-align: center;
-	position:relative;
-	height: 76px;
-	background-color: #dfdfdf;
-	border: 0.14px solid #b5b7ba;
-	text-align: center;
-	padding-top: 0;
+  height: 76px;
+  background-color: #dfdfdf;
+  border: 0.14px solid #b5b7ba;
+  text-align: center;
 }
-.box{
-	width: 706px;
-	height: 272px;
-	font-size: 24px;
-	color: #242424;
-	font-family: "Helvetica Neue Cyr";
+
+.box {
+  width: 706px;
+  height: 272px;
+  font-size: 24px;
+  color: #242424;
+  font-family: "Helvetica Neue Cyr";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+
+  display: flex;
+  margin-top: 50px;
+
 }

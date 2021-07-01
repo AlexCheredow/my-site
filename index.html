@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Личный сайт студента GeekBrains</title>
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="Style.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Личный сайт студента GeekBrains</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <wrap class="wrapper">
+      <nav class="navigation">
+        <a href="index.html" class="button">Главная</a>
+        <a href="puzzle.html" class="button">Загадки</a>
+        <a href="guess.html" class="button">Угадайка</a>
+      </nav>
 
-	<nav class="navigation">
-		<a href="index.html" class ="button">Главная</a>
-		<a href="puzzle.html" class ="button">Загадки</a>
-		<a href="guess.html" class ="button">Угадайка</a>
-	</nav>
+      <div class="content">
+        <h1 class="site__title">Личный сайт студента GeekBrains</h1>
+        <div class="flex-content">
+          <img src="img/logo.png" />
+          <div class="main">
+            <div>
+              <p>
+                Добрый день. Меня зовут Александр Чередов. Я совсем недавно
+                начал программировать, однако уже написал свой первый сайт.
+              </p>
+              <br />
+              <p>
+                В этом мне помог IT-портал
+                <a href="https://geekbrains.ru">GeekBrains.</a>
+              </p>
+              <br />
 
-
-
-<div class="content">
-
-		<h1 class="site__title">Личный сайт студента GeekBrains</h1>
-
-	
-	<img src="img/logo.png" class="logo">
-	<div class="main">
-		<p>Добрый день. Меня зовут Александр Чередов. Я совсем недавно начал программировать, однако уже написал свой первый сайт.</p><br>
-		<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains.</a></p><br>
-	
-		<p>На этои сайте вы сможете сыграть в несколько игр, которые я написал:<br>
-			<a href="puzzle.html" class="button--footer"><img src="img/загадки.png" width="136" 
-   height="136">Загадки</a>
-
-			<a href="guess.html" class="button--footer" ><img src="img/угадайка.png">Угадайка</a>
-			
-		</p>
-	</div>
-
-</div>
-<div class="clear"></div>
-<div class="footer2">
-	Copyright &copy; Alex Cheredov
-</div>
-
-</body>
+              <p>
+                На этои сайте вы сможете сыграть в несколько игр, которые я
+                написал:
+              </p>
+              <div class="links">
+                <div class="label-link-1">
+                  <a href="puzzle.html" class="button--footer"
+                    ><img
+                      src="img/загадки.png"
+                      width="136"
+                      height="136"
+                    />Загадки</a
+                  >
+                </div>
+                <div class="label-link-1">
+                  <a href="guess.html" class="button--footer"
+                    ><img src="img/угадайка.png" />Угадайка</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="clear"></div> -->
+      <footer class="footer">Copyright &copy; Alex Cheredov</footer>
+    </wrap>
+  </body>
 </html>
