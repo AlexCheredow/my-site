@@ -86,14 +86,10 @@
 }
 
 
-.clear {
-  clear: both;
-  display: flex;
-}
+
 
 .content {
   margin: 0px 50px;
-  width: 97%;
 }
 
 .flex-content {
